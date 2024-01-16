@@ -1,7 +1,8 @@
 local lgi = require 'lgi'
+local gtk = lgi.require('Gtk', '3.0')
 
-local icon_theme = lgi.Gtk.IconTheme.get_default()
-local IconLookupFlags = lgi.Gtk.IconLookupFlags
+local icon_theme = gtk.IconTheme.get_default()
+local IconLookupFlags = gtk.IconLookupFlags
 
 local iconhelper = {}
 
